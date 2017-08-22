@@ -1,0 +1,13 @@
+Documentation:
+  Enabled: false
+Metrics/ModuleLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+Metrics/BlockLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+Metrics/LineLength:
+  # This will disable the rule completely, regardless what other options you put
+  Enabled: false
