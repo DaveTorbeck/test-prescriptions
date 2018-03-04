@@ -4,6 +4,9 @@ Metrics/ModuleLength:
   Exclude:
     - "**/*_spec.rb"
 
+Style/SymbolArray:
+  MinSize: 5
+
 Metrics/BlockLength:
   Exclude:
     - "**/*_spec.rb"
